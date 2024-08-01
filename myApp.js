@@ -1,6 +1,13 @@
 let express = require('express');
 let app = express();
 
+console.log("Hello World")
+app.listen(3001)
+
+app.get('/',(req,res)=>{
+    res.send('Hello Express')
+})
+
 
 
 
